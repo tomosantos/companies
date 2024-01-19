@@ -1,6 +1,6 @@
 # Companies Data Visualization
 
-### ![Video Demo](https://www.youtube.com/watch?v=c6OVJMzM7iI&ab_channel=WellintonOliveira)
+### [Video Demo](https://www.youtube.com/watch?v=c6OVJMzM7iI&ab_channel=WellintonOliveira)
 
 ### Description:
 
@@ -12,17 +12,18 @@ The script performs the following tasks:
 
 ## 1. Data Retrieval:
 
-• Utilizes the BeautifulSoup to scrape data from the Wikipedia page List of largest companies in the United States by revenue.
-• Extracts the relevant table data and column titles.
+- Utilizes the BeautifulSoup to scrape data from the Wikipedia page List of largest companies in the United States by revenue.
+- Extracts the relevant table data and column titles.
 
 ## 2. DataFrame Creation:
 
-• Constructs a Pandas DataFrame using the extracted data.
-• Converts the DataFrame into a CSV file ('companies.csv') for further analysis or reference.
+- Constructs a Pandas DataFrame using the extracted data.
+- Converts the DataFrame into a CSV file ('companies.csv') for further analysis or reference.
 
 ## 3. Data Visualization:
-• Utilizes the Matplotlib library to create a visually appealing PDF table.
-• The generated PDF, named 'companies.pdf', includes a table formatted columns and centered text.
+
+- Utilizes the Matplotlib library to create a visually appealing PDF table.
+- The generated PDF, named 'companies.pdf', includes a table formatted columns and centered text.
 
 ## Usage:
 
@@ -33,11 +34,11 @@ The script performs the following tasks:
 
 ## Libraries used:
 
-• BeautifulSoup → for web scraping and HTML parsing
-• Tabulate → to format the DataFrame as a table in the console
-• Matplotlib → to create visualization, specifically a PDF table
-• Requests → to retrieve content from a URL
-• Pandas → for data manipulation and CSV file creation
+- BeautifulSoup → for web scraping and HTML parsing
+- Tabulate → to format the DataFrame as a table in the console
+- Matplotlib → to create visualization, specifically a PDF table
+- Requests → to retrieve content from a URL
+- Pandas → for data manipulation and CSV file creation
 
 ## Notes:
 
